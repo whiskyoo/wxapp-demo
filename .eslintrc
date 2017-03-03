@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb-base",
+  ],
+  "rules": {
+    // Soft some rules.
+    "arrow-parens": 0, // Does not work with Flow generic types.
+    "global-require": 0, // Used by webpack isomorphic tools and React Native.
+    "import/first": 0, // Este sorts by atom/sort lines natural order.
+    "import/prefer-default-export": 0, // No. Actions can have just one action.
+    "no-confusing-arrow": 0, // This rule is confusing.
+    "no-nested-ternary": 0, // Nice for JSX.
+    "no-param-reassign": 0, // We love param reassignment. Naming is hard.
+    "no-shadow": 0, // Shadowing is a nice language feature. Naming is hard.
+    "no-undef": 0,
+  }
+}
